@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.am.engsabbagh.estghfarapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/title_activity_home"
+        android:roundIcon="@mipmap/appiconr"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.Quraan"
+        >
+        <intent-filter>
+            <action android:name="android.intent.action.SEARCH" />
+        </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable " />
+
+        </activity>
+        <activity android:name=".Activities.MorningOrEvning" />
+        <activity android:name=".Activities.PaypalActivity" />
+        <activity android:name=".Activities.SoonActivity" />
+        <activity
+            android:name="com.braintreepayments.api.BraintreeBrowserSwitchActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="${applicationId}.braintree" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".BroadCastRecieveres.AutoStartBroadCastReciever"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadCastRecieveres.AlarmBroadCastReciever"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.am.engsabbagh.estghfarapp.START_ALARM" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Services.TimerService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".Services.MyJobSchedulerService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name=".Activities.ContactUsAvtivity" />
+        <activity android:name=".Activities.Supplication_Activity" />
+        <activity
+            android:name=".Activities.Settings"
+            android:label="@string/title_activity_Settings" />
+        <activity
+            android:name=".Activities.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.VideoListAdapterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="مقاطع دينية" />
+
+        <service android:name=".Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Services.FloatingViewService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_pray_icon" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3224782505746796~4820657311" />
+    </application>
+
+</manifest>

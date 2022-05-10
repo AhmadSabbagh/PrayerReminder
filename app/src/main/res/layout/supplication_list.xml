@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/supplication_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:text="TextView"
+                android:textColor="#326835"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10sp" />
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/supplication_share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:clickable="true"
+                app:srcCompat="@drawable/ic_menu_share" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-3224782505746796/2465956715">
+
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

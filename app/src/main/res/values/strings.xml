@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name"> اذكر الله</string>
+    <string name="title_activity_home">لا تنسى ذكر الله</string>
+    <string name="title_activity_Settings">الاعدادات</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">تطبيق لا تنسى ذكر الله</string>
+    <string name="nav_header_Email"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">اعدادات التطبيق</string>
+    <string name="menu_Supplication">الدعاء المستجاب</string>
+    <string name="menu_morning_supp">اذكار الصباح</string>
+    <string name="menu_evning_supp">اذكار المساء</string>
+    <string name="quraan">القران الكريم</string>
+    <string name="menu_video">فيديوهات</string>
+    <string name="menu_donate">ادعمنا</string>
+    <string name="menu_settings">إعدادات التطبيق</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">ساعدنا في نشر التطبيق </string>
+    <string name="menu_contact">تواصل معنا </string>
+    <string name="Alarm_stutus">تفعيل التنبيهات </string>
+    <string name="menu_language_settings">تغيير اللغة </string>
+    <string name="Notification_stutus">تفعيل الاشعارات </string>
+    <string name="Please_Activate_the_Alarm"> قم بتفعيل التنبيهات لضبط التكرار</string>
+    <string name="ShareAppSubject">حمَل أجمل تطبيق لتذكيرك بالاستغفار والاذكار بشكل جميل </string>
+    <string name="ShareAppLink">https://play.google.com/store/apps/details?id=com.am.engsabbagh.estghfarapp شارك تطبيق لا تنسى ذكر الله افضل تطبيق للاذكار والتذكير بالاستغفار</string>
+    <string name="ShareAppTitle">شارك التطبيق باستخدام :</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="App_link">https://play.google.com/store/apps/details?id=com.am.engsabbagh.estghfarapp</string>
+    <string name="Email_Edit_text">بريدك الالكتروني </string>
+    <string name="Message_Edit_text">أدخل رسالتك هنا </string>
+    <string name="Invalid_Email">الرجاء ادخال بريد الكتروني صحيح </string>
+    <string name="Fill_the_gabs">الرجاء ملأ كافة الخانات </string>
+    <string name="error_player">حدث خطأ اثناء تهيئة المقطع</string>
+    <string name="Server_ip">http://fifaapp-001-site1.ftempurl.com/webservice/api.asmx/</string>
+
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+
+</resources>

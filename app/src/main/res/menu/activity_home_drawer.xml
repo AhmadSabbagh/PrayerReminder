@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/supplication_id"
+            android:icon="@drawable/ic_pray_icon"
+            android:title="@string/menu_Supplication" />
+        <item
+            android:id="@+id/morning_supp"
+            android:icon="@drawable/ic_morning"
+            android:title="@string/menu_morning_supp" />
+        <item
+            android:id="@+id/evning_supp"
+            android:icon="@drawable/ic_evning"
+            android:title="@string/menu_evning_supp" />
+        <item
+            android:id="@+id/Quran"
+            android:icon="@drawable/quraan"
+            android:title="@string/quraan" />
+
+        <item
+            android:id="@+id/nav_video_id"
+            android:icon="@drawable/ic_video"
+            android:title="@string/menu_video" />
+        <item
+            android:id="@+id/nav_donate_id"
+            android:icon="@drawable/ic_donate_us"
+            android:title="@string/menu_donate" />
+
+        <item
+            android:id="@+id/nav_settings_id"
+            android:icon="@drawable/ic_settings_icon"
+            android:title="@string/menu_settings" />
+        <item
+            android:id="@+id/nav_language_settings_id"
+            android:icon="@drawable/ic_language_settings_icon"
+            android:title="@string/menu_language_settings" />
+    </group>
+
+    <item android:title="التواصل">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact_us"
+                android:title="@string/menu_contact" />
+        </menu>
+    </item>
+
+</menu>

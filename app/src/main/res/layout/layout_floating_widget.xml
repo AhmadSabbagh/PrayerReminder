@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/EstghfarTextID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:text="TextView"
+                        android:background="@drawable/custom_float_alarm"
+                        android:textColor="#3F51B5"
+                        android:textDirection="rtl"
+                        android:textSize="36sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/adView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-3224782505746796/2465956715"
+                        ads:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+                        ads:layout_constraintEnd_toEndOf="parent"
+                        ads:layout_constraintHorizontal_bias="0.506"
+                        ads:layout_constraintStart_toStartOf="parent"
+                        ads:layout_constraintTop_toBottomOf="@+id/aniImg"
+                        ads:layout_constraintVertical_bias="1.0"></com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>

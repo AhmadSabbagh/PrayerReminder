@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "846415659490",
+    "firebase_url": "https://estghfarapp.firebaseio.com",
+    "project_id": "estghfarapp",
+    "storage_bucket": "estghfarapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846415659490:android:affdb2b9fb0e4aea",
+        "android_client_info": {
+          "package_name": "com.am.engsabbagh.estghfarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846415659490-2rg58icnt9hb1j1o317uvfjajpjj54s3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.am.engsabbagh.estghfarapp",
+            "certificate_hash": "2b72c37e32e18a7601c69a54b538748674b0aa61"
+          }
+        },
+        {
+          "client_id": "846415659490-34v8ahgkccv7deivpvv5u8gne5bi4fl7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeJQQwiS78mY3JwMe6JmcpQlvQ10onP1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846415659490-34v8ahgkccv7deivpvv5u8gne5bi4fl7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

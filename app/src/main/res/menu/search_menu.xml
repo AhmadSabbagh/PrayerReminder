@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.Quraan">
+
+    <item
+        android:id="@+id/mi_Re_star"
+        android:title="اذهب الى علامة"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_reload_start"
+        />
+    <item
+        android:id="@+id/mi_star"
+        android:title="احفظ علامة"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star"
+        />
+    <item
+        android:id="@+id/mi_search"
+        android:title="search something"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        />
+
+
+</menu>

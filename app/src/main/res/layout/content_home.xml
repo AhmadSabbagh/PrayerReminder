@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activities.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/WelcomeTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="8dp"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="إنَّ للاستغفار ثمرات وفوائد يحوزها من لزمهما وداوم عليهما، دلَّت عليه آياتٌ كريمةُ وأشارت إليه أحاديثٌ شريفةٌ كثيرةٌ، ومن فضله: ....
+1- محو الذّنوب وتكفير السيّئات، فالمسلم إذا ارتكب ذنبًا فإنَّه لن يبقى حبيساً لهذا الذّنب،
+يسكنه شعور باليأس على ما اقترف؛ لأنَّه بالاستغفار سيُمحى ما كان منه من آثامٍ،
+ومن ذلك قول الله تعالى: ُ"
+                android:textColor="#222020"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="(وَمَن يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ ثُمَّ يَسْتَغْفِرِ اللَّهَ يَجِدِ اللَّهَ غَفُورًا رَّحِيمًا)"
+                android:textColor="#3F51B5"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="2- محبّة الله تعالى للمُستغفرين ورضاه عنهم، وفرحته بتوبتهم ورجوعهم إليه................
+3- استجلاب الخيرات وحلول البركات بفضل مداومة الاستغفار، ودليل هذا دعاء نبيّ الله نوح عليه السّلام لقومه بأن يستغفروا:"
+                android:textColor="#222020"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="(فَقُلْتُ اسْتَغْفِرُوا رَبَّكُمْ إِنَّهُ كَانَ غَفَّارًا * يُرْسِلِ السَّمَاءَ عَلَيْكُم مِّدْرَارًا * وَيُمْدِدْكُم بِأَمْوَالٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّاتٍ وَيَجْعَل لَّكُمْ أَنْهَارًا)"
+                android:textColor="#3F51B5"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="النّجاة من عذاب الله وصرف عقابه عن المُستغفرين والتّائبين، ودليل ذلك قول الله تعالى: "
+                android:textColor="#222020"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="(وَمَا كَانَ اللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ وَمَا كَانَ اللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ)"
+                android:textColor="#3F51B5"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text=" 4- تفرِيج الكروب وإزالة الهموم، والشّاهد على ذلك ما رُوِي عن عبد الله بن عباس رضي الله عنهما قال: قال رسول الله صلّى الله عليه وسلّم:"
+                android:textColor="#222020"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="(من لزم الاستغفار جعل الله له من كل هم فرجاً، ومن كل ضيق مخرجاً، ورزقه من حيث لا يحتسب)"
+                android:textColor="#3F51B5"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="5- في الاستغفار اقتداءٌ بالأنبياء والرُّسل عليهم السّلام؛ إذ إنَّهم كانوا من المُستغفرين في مواطنَ كثيرةٍ، منها الشّدة والكرب، وفي مُعاناتهم مع أقوامهم، فأبو البشر آدم عليه السّلام وزوجه حوّاء طلبا المغفرة من الله تعالى بعد مُخالفة أمره بأكلهم من الشّجرة التي نهاهم عنها، وذلك في قول الله تعالى: "
+                android:textColor="#222020"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="(قَالَا رَبَّنَا ظَلَمْنَا أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ)"
+                android:textColor="#3F51B5"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+
+                android:singleLine="false"
+                android:text="وكذلك استغفار نبي الله موسى عليه السّلام بعد ندمه على وكز الرّجل ممّا أودى بحياته، فقال الله تعالى على لسان موسى عليه السّلام: "
+                android:textColor="#222020"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+
+                android:gravity="right"
+                android:singleLine="false"
+                android:text="(قَالَ رَبِّ إِنِّي ظَلَمْتُ نَفْسِي فَاغْفِرْ لِي فَغَفَرَ لَهُ ۚ إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ)"
+                android:textColor="#3F51B5"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="right"
+                android:gravity="right"
+                android:singleLine="false"
+
+                android:text="فالاستغفار نعمةٌ عظيمةٌ أنعم الله بها على عباده؛ كي لا ييأسوا من عفوه، ولا يقنطوا من رحمته، بل يعودوا ويُنِيبوا إليه إن أذنبوا وقصَّروا، ويُجدّدوا صلتهم به سبحانه وتعالى، مُطمئنّين بأنَّ عفو الله ومغفرته أعظم من ذنوبهم، وأنَّ رحمته وسعت كلَّ شيء."
+                android:textColor="#222020"
+                android:textDirection="rtl"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/aniImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/animationstart" />
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3224782505746796/2465956715"
+        ads:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintHorizontal_bias="0.506"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toBottomOf="@+id/aniImg"
+        ads:layout_constraintVertical_bias="1.0"></com.google.android.gms.ads.AdView>
+
+</android.support.constraint.ConstraintLayout>
